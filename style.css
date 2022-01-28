@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.two {
+    color: yellow;
+}
+.five {
+    color: indigo;
+}
+.six {
+    color: violet;
+}
+.seven {
+    color: maroon;
+}
+
+.fa-phone-square {
+    color: indigo;
+}
+.fa-people-carry {
+    color: yellow;
+}
+
+.col-md {
+    width: 50%;
+}
+.col-md img {
+    width: 100%;
+    height: 300px;
+}
+.col-md p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.form {
+    animation: vibrate-1 1s ease-in-out infinite both;
+}
+
+@keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+      }
+      20% {
+        -webkit-transform: translate(-2px, 2px);
+                transform: translate(-2px, 2px);
+      }
+      40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+      }
+      60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+      }
+      80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+      }
+      100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+      }
+}
